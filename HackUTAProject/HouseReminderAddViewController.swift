@@ -53,11 +53,12 @@ class HouseReminderAddViewController: UIViewController {
     
     @IBAction func remindAction(_ sender: Any) {
         sendNotification(title: "Reminder for House 1", message: reminderTF.text, date: datePicker.date)
-        var newReminder = Reminder(title: "House 1", message: reminderTF.text, date: datePicker.date)
-        reminders.append(newReminder)
+        
     }
     
     func sendNotification(title: String, message: String, date: Date) {
+        let newReminder = Reminder(title: "House 1", message: message, date: date)
+        reminders.append(newReminder)
         notificationCenter.getNotificationSettings { (settings) in
                     
                     DispatchQueue.main.async
