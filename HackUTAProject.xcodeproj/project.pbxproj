@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		69A28E232AD1EAF800C936AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A28E222AD1EAF800C936AA /* AppDelegate.swift */; };
 		69A28E252AD1EAF800C936AA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A28E242AD1EAF800C936AA /* SceneDelegate.swift */; };
-		69A28E272AD1EAF800C936AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A28E262AD1EAF800C936AA /* ViewController.swift */; };
+		69A28E272AD1EAF800C936AA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A28E262AD1EAF800C936AA /* HomeViewController.swift */; };
 		69A28E2A2AD1EAF800C936AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A28E282AD1EAF800C936AA /* Main.storyboard */; };
 		69A28E2C2AD1EAFB00C936AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A28E2B2AD1EAFB00C936AA /* Assets.xcassets */; };
 		69A28E2F2AD1EAFB00C936AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A28E2D2AD1EAFB00C936AA /* LaunchScreen.storyboard */; };
+		69A28E372AD22B2600C936AA /* HomeNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A28E362AD22B2600C936AA /* HomeNavController.swift */; };
+		69A28E392AD232F000C936AA /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A28E382AD232EF00C936AA /* SearchTableViewController.swift */; };
+		69A2D5732AD23C1300AF5262 /* NotifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5722AD23C1300AF5262 /* NotifViewController.swift */; };
+		69A2D5772AD23DB600AF5262 /* ConstantsAndFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5762AD23DB600AF5262 /* ConstantsAndFuncs.swift */; };
+		69A2D5792AD25C4100AF5262 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D5782AD25C4100AF5262 /* ProfileTableViewController.swift */; };
+		69A2D57B2AD2787A00AF5262 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D57A2AD2787A00AF5262 /* AccountViewController.swift */; };
+		69A2D57D2AD2962100AF5262 /* VehiclesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D57C2AD2962100AF5262 /* VehiclesTableViewController.swift */; };
+		69A2D57F2AD29B7B00AF5262 /* Car1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A2D57E2AD29B7B00AF5262 /* Car1ViewController.swift */; };
+		69BC7EC02AD2C46B00BE97EF /* HouseReminderAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69BC7EBF2AD2C46B00BE97EF /* HouseReminderAddViewController.swift */; };
+		69CD43A72AD2B8DF00F01F35 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD43A62AD2B8DF00F01F35 /* RemindersTableViewController.swift */; };
+		69CD43A92AD2C25A00F01F35 /* PropertyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CD43A82AD2C25A00F01F35 /* PropertyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69A28E1F2AD1EAF800C936AA /* HackUTAProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HackUTAProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A28E222AD1EAF800C936AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69A28E242AD1EAF800C936AA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69A28E262AD1EAF800C936AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		69A28E262AD1EAF800C936AA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		69A28E292AD1EAF800C936AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69A28E2B2AD1EAFB00C936AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69A28E2E2AD1EAFB00C936AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69A28E302AD1EAFB00C936AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69A28E362AD22B2600C936AA /* HomeNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavController.swift; sourceTree = "<group>"; };
+		69A28E382AD232EF00C936AA /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		69A2D5722AD23C1300AF5262 /* NotifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifViewController.swift; sourceTree = "<group>"; };
+		69A2D5762AD23DB600AF5262 /* ConstantsAndFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsAndFuncs.swift; sourceTree = "<group>"; };
+		69A2D5782AD25C4100AF5262 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		69A2D57A2AD2787A00AF5262 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		69A2D57C2AD2962100AF5262 /* VehiclesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesTableViewController.swift; sourceTree = "<group>"; };
+		69A2D57E2AD29B7B00AF5262 /* Car1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car1ViewController.swift; sourceTree = "<group>"; };
+		69BC7EBF2AD2C46B00BE97EF /* HouseReminderAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseReminderAddViewController.swift; sourceTree = "<group>"; };
+		69CD43A62AD2B8DF00F01F35 /* RemindersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		69CD43A82AD2C25A00F01F35 /* PropertyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +80,19 @@
 			children = (
 				69A28E222AD1EAF800C936AA /* AppDelegate.swift */,
 				69A28E242AD1EAF800C936AA /* SceneDelegate.swift */,
-				69A28E262AD1EAF800C936AA /* ViewController.swift */,
+				69A2D5762AD23DB600AF5262 /* ConstantsAndFuncs.swift */,
+				69A2D5782AD25C4100AF5262 /* ProfileTableViewController.swift */,
+				69A2D57A2AD2787A00AF5262 /* AccountViewController.swift */,
+				69A28E262AD1EAF800C936AA /* HomeViewController.swift */,
+				69A28E382AD232EF00C936AA /* SearchTableViewController.swift */,
+				69A2D5722AD23C1300AF5262 /* NotifViewController.swift */,
 				69A28E282AD1EAF800C936AA /* Main.storyboard */,
+				69BC7EBF2AD2C46B00BE97EF /* HouseReminderAddViewController.swift */,
+				69CD43A82AD2C25A00F01F35 /* PropertyTableViewController.swift */,
+				69CD43A62AD2B8DF00F01F35 /* RemindersTableViewController.swift */,
+				69A2D57E2AD29B7B00AF5262 /* Car1ViewController.swift */,
+				69A2D57C2AD2962100AF5262 /* VehiclesTableViewController.swift */,
+				69A28E362AD22B2600C936AA /* HomeNavController.swift */,
 				69A28E2B2AD1EAFB00C936AA /* Assets.xcassets */,
 				69A28E2D2AD1EAFB00C936AA /* LaunchScreen.storyboard */,
 				69A28E302AD1EAFB00C936AA /* Info.plist */,
@@ -138,9 +171,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69A28E272AD1EAF800C936AA /* ViewController.swift in Sources */,
+				69A2D57D2AD2962100AF5262 /* VehiclesTableViewController.swift in Sources */,
+				69A28E392AD232F000C936AA /* SearchTableViewController.swift in Sources */,
+				69A2D5772AD23DB600AF5262 /* ConstantsAndFuncs.swift in Sources */,
+				69A2D57F2AD29B7B00AF5262 /* Car1ViewController.swift in Sources */,
+				69A28E372AD22B2600C936AA /* HomeNavController.swift in Sources */,
+				69A28E272AD1EAF800C936AA /* HomeViewController.swift in Sources */,
+				69A2D5732AD23C1300AF5262 /* NotifViewController.swift in Sources */,
+				69BC7EC02AD2C46B00BE97EF /* HouseReminderAddViewController.swift in Sources */,
 				69A28E232AD1EAF800C936AA /* AppDelegate.swift in Sources */,
+				69A2D5792AD25C4100AF5262 /* ProfileTableViewController.swift in Sources */,
 				69A28E252AD1EAF800C936AA /* SceneDelegate.swift in Sources */,
+				69A2D57B2AD2787A00AF5262 /* AccountViewController.swift in Sources */,
+				69CD43A72AD2B8DF00F01F35 /* RemindersTableViewController.swift in Sources */,
+				69CD43A92AD2C25A00F01F35 /* PropertyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +334,13 @@
 				DEVELOPMENT_TEAM = LSQF3Y27V3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HackUTAProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Upkeep";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +364,13 @@
 				DEVELOPMENT_TEAM = LSQF3Y27V3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HackUTAProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Upkeep";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
